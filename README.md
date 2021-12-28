@@ -29,6 +29,8 @@ I created a `tools` directory, used git to clone the GONE repository (thus creat
 
 ## Running the programs
 
+As a starting point, the programs were run either with default settings (GONE) or settings used in the article as (SNeP).
+
 * `scripts/run_gone.sh` -- Run GONE on simulated data; creates the `gone` working directory.
 
 * `scripts/run_snep.sh` -- Run SNeP on simulated data; creates the `snep` working directory.
