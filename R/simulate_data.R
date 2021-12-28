@@ -139,6 +139,8 @@ write_plink <- function(plink_data, base_name) {
 
 ## Write out data with 10 000 SNPs 
 
+dir.create("simulation")
+
 pmap(list(pop = pops,
           name = names(pops)),
      function(pop, name) {
